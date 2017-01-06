@@ -1,4 +1,4 @@
-wifi.setmode(wifi.SOFTAP)
+wifi.setmode(wifi.STATION)
 wifi.ap.config({ssid="test",pwd="12345678"})
 gpio.mode(1, gpio.OUTPUT)
 srv=net.createServer(net.TCP)
